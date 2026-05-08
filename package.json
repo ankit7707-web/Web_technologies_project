@@ -1,0 +1,21 @@
+{
+  "name": "notionn",
+  "version": "1.0.0",
+  "description": "A self-contained fullstack Notion-style workspace app.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node --no-warnings server.js",
+    "dev": "node --no-warnings server.js"
+  },
+  "keywords": [
+    "notion",
+    "notes",
+    "workspace",
+    "fullstack"
+  ],
+  "author": "",
+  "license": "MIT"
+}

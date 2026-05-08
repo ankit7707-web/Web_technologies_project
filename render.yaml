@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: notionn
+    env: docker
+    plan: starter
+    healthCheckPath: /api/health
+    disk:
+      name: notionn-data
+      mountPath: /data
+      sizeGB: 1
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATA_DIR
+        value: /data
